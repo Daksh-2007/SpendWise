@@ -1,7 +1,7 @@
 (() => {
 "use strict";
 const $ = id => document.getElementById(id);
-const base = "/SpendWise";
+const base = (() => { const p = (location.pathname || "/").replace(/\/[^/]*\.[^/]*$/, "").replace(/\/+$/, ""); return p === "/" ? "" : p; })();
 const url = path => `${base}${path}`;
 const money = n => new Intl.NumberFormat("en-IN",{style:"currency",currency:"INR"}).format(Number(n||0));
 const isoToday = () => { const d=new Date(); return `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,"0")}-${String(d.getDate()).padStart(2,"0")}`; };

@@ -1,0 +1,24 @@
+# Maven build
+target/
+
+# Sensitive files
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+/config/
+secrets/
+passwordsAndLink.txt
+
+# IDE and OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+.postman/
+postman/

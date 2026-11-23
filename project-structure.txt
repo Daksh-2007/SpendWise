@@ -1,0 +1,141 @@
+Folder PATH listing for volume Local Disk
+Volume serial number is 0A63-2156
+C:.
+|   pom.xml
+|   project-structure.txt
+|   
++---.postman
+|       resources.yaml
+|       
++---postman
+|   +---collections
+|   +---documents
+|   +---environments
+|   +---flows
+|   +---globals
+|   |       workspace.globals.yaml
+|   |       
+|   +---mocks
+|   \---specs
++---src
+|   \---main
+|       +---java
+|       |   \---com
+|       |       \---spendwise
+|       |           +---config
+|       |           |       DatabaseConnection.java
+|       |           |       
+|       |           +---dao
+|       |           |       CategoryDAO.java
+|       |           |       DashboardDAO.java
+|       |           |       ExpenseDAO.java
+|       |           |       ReportDAO.java
+|       |           |       
+|       |           +---filter
+|       |           |       AuthFilter.java
+|       |           |       
+|       |           +---model
+|       |           |       Category.java
+|       |           |       Expense.java
+|       |           |       
+|       |           \---servlet
+|       |                   CategoryReportServlet.java
+|       |                   CategoryServlet.java
+|       |                   DashboardServlet.java
+|       |                   DatabaseTestServlet.java
+|       |                   ExpenseServlet.java
+|       |                   LoginServlet.java
+|       |                   LogoutServlet.java
+|       |                   
+|       \---webapp
+|           |   index.html
+|           |   login.html
+|           |   
+|           +---css
+|           +---js
+|           \---WEB-INF
+|                   web.xml
+|                   
+\---target
+    |   SpendWise.war
+    |   
+    +---classes
+    |   \---com
+    |       \---spendwise
+    |           +---config
+    |           |       DatabaseConnection.class
+    |           |       
+    |           +---dao
+    |           |       CategoryDAO.class
+    |           |       DashboardDAO.class
+    |           |       ExpenseDAO.class
+    |           |       ReportDAO.class
+    |           |       
+    |           +---filter
+    |           |       AuthFilter.class
+    |           |       
+    |           +---model
+    |           |       Category.class
+    |           |       Expense.class
+    |           |       
+    |           \---servlet
+    |                   CategoryReportServlet.class
+    |                   CategoryServlet.class
+    |                   DashboardServlet.class
+    |                   DatabaseTestServlet.class
+    |                   ExpenseServlet.class
+    |                   LoginServlet.class
+    |                   LogoutServlet.class
+    |                   
+    +---generated-sources
+    |   \---annotations
+    +---maven-archiver
+    |       pom.properties
+    |       
+    +---maven-status
+    |   \---maven-compiler-plugin
+    |       \---compile
+    |           \---default-compile
+    |                   createdFiles.lst
+    |                   inputFiles.lst
+    |                   
+    \---SpendWise
+        |   index.html
+        |   login.html
+        |   
+        +---META-INF
+        \---WEB-INF
+            |   web.xml
+            |   
+            +---classes
+            |   \---com
+            |       \---spendwise
+            |           +---config
+            |           |       DatabaseConnection.class
+            |           |       
+            |           +---dao
+            |           |       CategoryDAO.class
+            |           |       DashboardDAO.class
+            |           |       ExpenseDAO.class
+            |           |       ReportDAO.class
+            |           |       
+            |           +---filter
+            |           |       AuthFilter.class
+            |           |       
+            |           +---model
+            |           |       Category.class
+            |           |       Expense.class
+            |           |       
+            |           \---servlet
+            |                   CategoryReportServlet.class
+            |                   CategoryServlet.class
+            |                   DashboardServlet.class
+            |                   DatabaseTestServlet.class
+            |                   ExpenseServlet.class
+            |                   LoginServlet.class
+            |                   LogoutServlet.class
+            |                   
+            \---lib
+                    mysql-connector-j-9.5.0.jar
+                    protobuf-java-4.31.1.jar
+                    
